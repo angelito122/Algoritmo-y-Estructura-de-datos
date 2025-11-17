@@ -1,0 +1,12 @@
+Arreglo1=[5,10,15,20,25]
+Arreglo2=[7,14,21,28,35]
+Arreglo3=[]
+
+i=0
+
+for i in range(5):
+    if i %2==0:
+        Arreglo3.append(Arreglo1[i])
+    elif i%2==1:
+        Arreglo3.append(Arreglo2[i])
+print(Arreglo3)   
