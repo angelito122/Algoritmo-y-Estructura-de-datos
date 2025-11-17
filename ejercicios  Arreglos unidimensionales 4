@@ -1,0 +1,8 @@
+Numero=5
+MxPI=[2,4,6,8,9]
+ResulMxPI=[]
+i=0
+
+for i in range(Numero):
+    ResulMxPI.append(MxPI[i]*3.14)
+print(ResulMxPI)
